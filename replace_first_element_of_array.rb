@@ -1,0 +1,10 @@
+class ArrayNameList
+def more_fun()
+  name = ["payal", "divya", "oshee", "neha"]
+
+name[0] = "FUN FUN"
+puts name
+end
+end
+object = ArrayNameList.new
+object.more_fun
