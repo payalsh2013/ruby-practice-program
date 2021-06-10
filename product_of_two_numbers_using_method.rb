@@ -1,8 +1,11 @@
-class Multiply_two_Number
-  def multiply(x, y)
-  @value = x * y
+# frozen_string_literal: true
+
+# product
+class MultiplyTwoNumber
+  def multiply(num1, num2)
+    @value = num1 * num2
     puts @value
   end
 end
-object = Multiply_two_Number.new
-object.multiply(2,3)
+object = MultiplyTwoNumber.new
+object.multiply(2, 3)
