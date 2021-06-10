@@ -1,7 +1,7 @@
 number = 99999
 puts Math.sqrt(number)
 
-#input from user
+#input from us
 puts "enter value"
 value = Integer(gets.chomp)
 answer = Math.sqrt(value)
