@@ -1,11 +1,14 @@
-class Fing_sub_string_in_string
+# frozen_string_literal: true
+
+# substring from string
+class FingSubStringInString
   def convert_string
-puts "enter the string"
-str = gets.chomp
-puts "enter the sub string"
-sub_str = gets.chomp
-puts str.include?sub_str
+    puts 'enter the string'
+    str = gets.chomp
+    puts 'enter the sub string'
+    sub_str = gets.chomp
+    puts str.include? sub_str
+  end
 end
-end
-object = Fing_sub_string_in_string.new
+object = FingSubStringInString.new
 object.convert_string

@@ -1,8 +1,7 @@
-puts "how to reverse this string".reverse
+# frozen_string_literal: true
 
-
-#input from user
-puts " enter the string"
+puts 'how to reverse this string'.reverse
+puts 'enter the string'
 str = gets.chomp
 reverse_string = str.reverse
 puts "new string is #{reverse_string}"

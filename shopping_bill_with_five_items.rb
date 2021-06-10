@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# shopping bill
 class Item
   @@items = {}
   def initialize(name, price)
