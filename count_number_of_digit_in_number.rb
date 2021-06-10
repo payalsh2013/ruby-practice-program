@@ -1,15 +1,18 @@
-$count = 0
-class Count_Number
-def digit_count
-  puts "enter the number"
-  number = gets.chomp.to_i
-  temp = number
-  while (temp>0)
-    $count +=1
-    temp = temp/10
+# frozen_string_literal: true
+
+# count number of digits in number
+class CountNumber
+  def digit_count
+    @count = 0
+    puts 'enter the number'
+    number = gets.chomp.to_i
+    temp = number
+    while temp.positive?
+      @count += 1
+      temp /= 10
+    end
+    puts "number of digits in given number is #{@count}"
   end
-  puts "number of digits in given number is #{$count}"
 end
-end
-object = Count_Number.new
+object = CountNumber.new
 object.digit_count

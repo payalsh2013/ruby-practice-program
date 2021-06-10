@@ -1,13 +1,14 @@
-class Count_down_recursion
-def count_down(n)
-  if(n==0)
-    puts n
-  else
-    puts n
-    count_down (n-1)
+# frozen_string_literal: true
 
-  end
+# count down recursion
+class CountDownRecursion
+  def count_down(num)
+    if num.zero?
+      puts num
+    else
+      count_down(num - 1)
+    end
   end
 end
-object = Count_down_recursion.new
+object = CountDownRecursion.new
 object.count_down(10)
