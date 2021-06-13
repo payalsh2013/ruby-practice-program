@@ -1,10 +1,12 @@
-name = "Payal"
-surname = "agrawal"
-puts name.include?"Payal"
-puts surname.include?"llll"
-puts defined?(name)
-if (defined?(surname))
-  puts "surname is defined"
+# frozen_string_literal: true
+
+name = 'Payal'
+surname = 'agrawal'
+puts name.include? 'Payal'
+puts surname.include? 'llll'
+puts defined? name
+if defined? surname
+  puts 'surname is defined'
 else
-  puts "surname is not defined"
+  puts 'surname is not defined'
 end

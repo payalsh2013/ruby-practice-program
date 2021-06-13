@@ -5,7 +5,7 @@ puts "enter the number"
 number = gets.chomp.to_i
 i = 1
 while (i<=number)
-if(i%2==0)
+if(i%2).zero
   $addition +=i
   i +=1
 else

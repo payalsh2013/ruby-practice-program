@@ -1,13 +1,16 @@
+# frozen_string_literal: true
+
+# word of string
 class Add
   def sum
-    puts "hello"
+    puts 'hello'
   end
 
   def self.addition
-    puts "heyyyyyy"
+    puts 'heyyyyyy'
   end
 end
 object = Add.new
 object.sum
-#object.addition
+# object.addition
 Add.addition
